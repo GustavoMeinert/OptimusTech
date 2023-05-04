@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    align-items: center;
+    padding: 0.8em 4em;
+    justify-content: space-between;
+
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+}
+
+.header__titulo{
+    color: var(--preto-logo);
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 0.3em;
+}
+
+.header__link{
+    text-decoration: none;
+    color: var(--cinza-claro);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 0.5em;
+}
+
+.header__branco{
+    opacity: 0;
+}
+
+.header__cadastro{
+    background-color: var(--bordo);
+    color: var(--branco);
+    text-decoration: none;
+    padding: 0.4em 0.4em;
+    border-radius: 0.4em;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 0.3em;
+}
+

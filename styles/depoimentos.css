@@ -1,0 +1,49 @@
+.depoimentos__container {
+    text-align: center;
+    background: rgba(142, 36, 36, 0.05);
+    width: 70%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.depoimentos__span {
+    color: var(--bordo);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.depoimentos__titulo {
+    color: var(--preto-titulo);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    margin: 0.5em 0;
+}
+
+.depoimentos__pessoa {
+    display: flex;
+    flex-direction: column;
+}
+
+.depoimentos__avatar {
+    width: 5%;
+    align-self: center;
+    margin: 0.2em 0;
+}
+
+.depoimentos__nome {
+    color: var(--preto-titulo);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0.5em;
+}
+
+.depoimentos__descricao {
+    color: var(--cinza-claro);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
